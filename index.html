@@ -12,8 +12,8 @@
 
 <body>
     <header id="navbar">
-        <h1>Hey! Let's get acquainted!</h1>
-        <h2>I am Viktoria!</h2>
+        <h1>Hey! <span class="text-primary"> Let's get</span> acquainted!</h1>
+        <h2>I am <span class="text-primary"> Viktoria</span>!</h2>
 
         
       </header><br>
@@ -22,74 +22,86 @@
           <a href="#contact">Contact</a>
           <a href="Lebenslauf2021.pdf">CV</a>
       </nav>
-      
+
     <main id="showcase">
         <!-- <img src="https://avatars.githubusercontent.com/u/93935037?v=4" alt="" width="200"> -->
-        <img src="./IMG_0406.jpeg" alt="" width="200">
+        <img src="./IMG_0406.jpeg" alt="" width="210">
         <img src="./IMG_0191.jpeg" alt="" width="200">
-        <img src="./IMAG0018.jpeg" alt="" width="200">
-        <p>I like change, nature and art, who doesn't?!</p>
-        <br>
+        <img src="./IMG_2597.jpeg" alt="" width="200">
+        <p class="description">I like change, nature and fun, who doesn't?!</p>
     
-
-        <div>
-            <h2>What I am interested in:</h2>
+        <section id="features">
+          <div class="box">  
+            <h3>My interests:</h3>
             <ul>
-                <li class="items1">Web development</li>
-                <li class="items2">Germany</li>
-                <li class="items3">Ikigai</li>
+              <li class="items1">Web development</li>
+              <li class="items2">Germany</li>
+              <li class="items3">Ikigai</li>
             </ul>
-            <br>
-
-            <h2>Skills</h2>
-            
+          </div>
+          <div class="box">
+            <h3>Skills</h3>
             <ul>
-                <li>Time management</li>
-                <li>Communication</li>
-                <li>Punctuality</li>
-                <li>Active listening</li>
+              <li>Time management</li>
+              <li>Communication</li>
+              <li>Punctuality</li>
+              <li>Active listening</li>
             </ul>
-        </div>
+          </div>
+          <div class="box">
+            <h3>Languages</h3>
+            <ul>
+              <li>Time management</li>
+              <li>Communication</li>
+              <li>Punctuality</li>
+              <li>Active listening</li>
+            </ul>
+          </div>
+        </section>
     </main>
 
-    <section id="contact">
+
+    <!-- Icons -->
+    <section>
+      <div class="bg-light">
         <h3>Contact information</h3>
-        <section id="features">
-            <div>
-            <i class="fas fa-hotel fa-2x"></i>
+      </div>
+      <section id="features">
+            <div class="box icons">
+              <br><i class="fas fa-hotel fa-2x"></i>
             <h3>City</h3>
             <p>Munich</p>
           </div>
-          <div>
-            <i class="fas fa-phone fa-2x"></i>
+          <div class="box icons bg-primary">
+            <br><i class="fas fa-phone fa-2x"></i>
             <h3>Phone</h3>
             <p>+49(152)589497922</p>
           </div>
-          <div>
-            <i class="fas fa-envelope fa-2x"></i>
+          <div class="box icons">
+            <br><i class="fas fa-envelope fa-2x"></i>
             <h3>E-Mail</h3>
             <p>viktoria.gorianska@gmail.com</p>
           </div>
         </section>
-    </section>
 
+    </section>
     <a href="./Lebenslauf2021.pdf">CV</a>
     <a href="https://github.com/VGorianska">Github</a>
     <a href="https://www.linkedin.com/in/viktoriia-gorianska-9045bb1b5/">Linkedin</a>
 
-    <section id="contact-form" class="">
+    <section id="contact" class="">
         <div class="">
-          <h2><span class="">Contact</span> Me</h2>
+          <h2><span class="text-primary">Contact</span> Me</h2>
           <p>Please fill the form below to contact me</p>
         </div>
         
-        <form>
+        <section>
           <div class="">
-            <label for="name">Name</label>
+            <label for="name">Name   </label>
             <input type="text" name="name" id="name">
           </div>
           <div class="">
-            <label for="email">Email</label>
+            <label for="email">Email   </label>
             <input type="text" name="email" id="email">
           </div>
           <div class="">
@@ -101,7 +113,7 @@
           </div>
           
             <button type="submit" class="">Submit</button>
-          </form>
+          </section>
           
       </section><br>
     
